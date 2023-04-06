@@ -115,7 +115,7 @@ btnShare.onclick = () => {
 }
 
 async function scanCode() {
-  const result = await liff.scanCode()
+  const result = await liff.scanCodeV2()
   code.innerHTML = "<b>Code: </b>" + result.value
 }
 
