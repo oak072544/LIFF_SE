@@ -1,4 +1,4 @@
-import './style.css';
+//import './style.css';
 import liff from '@line/liff';
 
 liff
